@@ -1,0 +1,16 @@
+Домашнее задание к лекции 4.5 «Продвинутые приемы работы с http-запросами, полезные модули от сообщества разработчиков и подготовка к Angular2»
+
+git clone https://github.com/webmaxru/netology-angular-pokemons -b component angular-component
+cd angular-component
+npm install
+gulp webserver
+
+
+Переделать PokemonDetail в компонент <pokemon-detail>
+Использовать Angular Material -> List для <pokemon-list>
+
+https://angular-ui.github.io/bootstrap
+https://material.io - визуальный язык
+https://material.angularjs.org
+
+
