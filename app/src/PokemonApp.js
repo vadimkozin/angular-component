@@ -11,9 +11,15 @@ module('PokemonApp')
             template: '<pokemon-list></pokemon-list>'
         }).
         when('/pokemons/:pokemonId', {
+            template: '<pokemon-detail></pokemon-detail>'
+        
+        }).
+        /*
+        when('/pokemons/:pokemonId', {
             templateUrl: 'src/PokemonDetail/PokemonDetail.html',
             controller: 'PokemonDetailCtrl'
         }).
+        */
         when('/edit/:pokemonId', {
             templateUrl: 'src/EditPokemon/EditPokemon.html',
             controller: 'EditPokemonCtrl'
@@ -34,8 +40,8 @@ module('PokemonApp')
 .config(['$httpProvider', function($httpProvider) {
 
     $httpProvider.defaults.headers.common = {
-        "application-id": "4B730C92-F81E-236B-FFF0-6651FE882800",
-        "secret-key": "CB6DE86C-6069-86C4-FF1C-9049D5AC9400"
+        "application-id": "49FFA7FB-3DAE-0943-FF79-68E3AA886F00",
+        "secret-key": "BAF58198-6B37-F61D-FFA2-D1D654719400"
     };
 
 }]);
